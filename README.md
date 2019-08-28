@@ -1,33 +1,5 @@
 # Gatsby Starter Portfolio
 
-A portfolio starter for [Gatsby](https://www.gatsbyjs.org/). The target audience are designers and photographers.
-
-[Demo Website](https://emilia.lekoarts.de)
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LekoArts/gatsby-starter-portfolio-emilia) [![Edit gatsby-starter-portfolio-emilia](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/LekoArts/gatsby-starter-portfolio-emilia/tree/master/)
-
-[![CircleCI](https://circleci.com/gh/LekoArts/gatsby-starter-portfolio-emilia.svg?style=svg)](https://circleci.com/gh/LekoArts/gatsby-starter-portfolio-emilia) [![Netlify Status](https://api.netlify.com/api/v1/badges/5da7d9e1-9b91-44c5-b23d-b47cab98c50d/deploy-status)](https://app.netlify.com/sites/portfolio-emilia/deploys)
-
-- Focus on big images
-- Dark theme
-- Image grid powered by CSS Grid
-- Page Transitions & Animations
-
-## Why?
-
-If you want to quickly bootstrap a design/photography portfolio or use it as a foundation for your personal site the _gatsby-starter-portfolio_ are a perfect fit for you! The project's goal is to offer minimalistic and fast websites.
-
-I hope you like my starters and create something awesome! To see some of my work you can visit my [website](https://www.lekoarts.de) or support me on [Patreon](https://www.patreon.com/lekoarts) to get some neat rewards (4K images, project files, tutorial insights). Every pledge on Patreon helps me creating more free starters!
-
-Also check out the other _gatsby-starter-portfolio_:
-
-- [gatsby-starter-portfolio-emma](https://github.com/LekoArts/gatsby-starter-portfolio-emma)
-- [gatsby-starter-portfolio-bella](https://github.com/LekoArts/gatsby-starter-portfolio-bella)
-- [gatsby-starter-portfolio-cara](https://github.com/LekoArts/gatsby-starter-portfolio-cara)
-- [gatsby-starter-portfolio-jodie](https://github.com/LekoArts/gatsby-starter-portfolio-jodie)
-
-Check out the [Gatsby Starter Portfolio Overview](https://gatsby-starter-portfolio.netlify.com/)!
-
 ## Features
 
 - Configurable
