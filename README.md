@@ -1,6 +1,4 @@
-![](https://i.imgur.com/xPj0ICn.png)
-
-# Gatsby Starter Portfolio: Emilia
+# Gatsby Starter Portfolio
 
 A portfolio starter for [Gatsby](https://www.gatsbyjs.org/). The target audience are designers and photographers.
 
