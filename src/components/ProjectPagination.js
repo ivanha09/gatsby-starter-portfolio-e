@@ -46,6 +46,7 @@ const ProjectPagination = ({ next, prev }) => (
     {next && (
       <Next>
         <Link to={next.fields.slug}>
+          {"<"}
           <img src={arrowLeft} alt="Arrow Left" />
           {next.frontmatter.title}
         </Link>
@@ -57,6 +58,7 @@ const ProjectPagination = ({ next, prev }) => (
         <Link to={prev.fields.slug}>
           {prev.frontmatter.title}
           <img src={arrowRight} alt="Arrow Right" />
+          {">"}
         </Link>
       </Prev>
     )}

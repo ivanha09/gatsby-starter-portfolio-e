@@ -45,7 +45,10 @@ const Project = ({ pageContext: { slug, prev, next }, data: { project: postNode,
                 alt={image.name}
                 key={image.childImageSharp.fluid.src}
                 fluid={image.childImageSharp.fluid}
-                style={{ margin: '3rem 0' }}
+                style={{
+                  margin: '3rem 0',
+                  boxShadow: '0 20px 40px rgba(0, 0, 0, 0.2), 0 15px 12px rgba(0, 0, 0, 0.1)'
+                }}
               />
             ))}
           </InnerWrapper>

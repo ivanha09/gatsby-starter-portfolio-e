@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: 'Ivan', // Navigation and Site Title
   siteTitleAlt: 'Ivan - Portfolio', // Alternative Site title for SEO
   siteTitleShort: 'Ivan', // short_name for manifest
-  siteHeadline: 'Publishing & Creating stunning photos', // Headline for schema.org JSONLD
+  siteHeadline: 'Design for web and print', // Headline for schema.org JSONLD
   siteUrl: 'https://www.ivanha.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo.png', // Used for SEO and manifest
@@ -12,10 +12,10 @@ module.exports = {
   author: 'Ivan', // Author for schema.org JSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
-  userTwitter: '@emilia', // Twitter Username
-  ogSiteName: 'emilia', // Facebook Site Name
+  userTwitter: '@ivanha', // Twitter Username
+  ogSiteName: 'ivanha', // Facebook Site Name
   ogLanguage: 'en_US', // og:language
-  googleAnalyticsID: 'UA-47519312-4',
+  googleAnalyticsID: 'G-N14CZHZ8D3',
 
   // Manifest and Progress color
   themeColor: '#BBA05B',
