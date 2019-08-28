@@ -85,6 +85,7 @@ export const pageQuery = graphql`
     images: allFile(
       filter: {
         absolutePath: { regex: $absolutePathRegex }
+        name: { regex: "/^((?!index).)*$/"}
         extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
       }
       sort: { fields: name, order: ASC }

@@ -12,8 +12,8 @@ module.exports = {
     linkHover: '#C2AA6F',
   },
   maxWidths: {
-    general: '1600px',
-    project: 1600,
+    general: '1200px',
+    project: 810,
   },
   gridColumns: 2, // Number of columns of the grid on the index page
   contentPadding: '1.0875rem',
