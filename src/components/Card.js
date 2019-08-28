@@ -10,7 +10,7 @@ const CardItem = styled(Link)`
   min-height: 500px;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -18,7 +18,7 @@ const CardItem = styled(Link)`
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    color: white;
+    color: ${props => props.theme.colors.link};
     transform: translateY(-4px);
   }
 
