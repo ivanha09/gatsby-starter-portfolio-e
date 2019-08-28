@@ -29,6 +29,7 @@ const Prev = styled.div`
     height: 25px;
     margin: 0 1rem 0 0;
   }
+  margin-left: auto;
 `
 
 const Next = styled.div`
@@ -37,27 +38,27 @@ const Next = styled.div`
     height: 25px;
     margin: 0 0 0 1rem;
   }
-  margin-left: auto;
 `
+
 
 const ProjectPagination = ({ next, prev }) => (
   <Wrapper>
-    {prev && (
-      <Prev>
-        <Link to={prev.fields.slug}>
-          <img src={arrowLeft} alt="Arrow Left" />
-          {prev.frontmatter.title}
-        </Link>
-      </Prev>
-    )}
-
     {next && (
       <Next>
         <Link to={next.fields.slug}>
+          <img src={arrowLeft} alt="Arrow Left" />
           {next.frontmatter.title}
-          <img src={arrowRight} alt="Arrow Right" />
         </Link>
       </Next>
+    )}
+
+    {prev && (
+      <Prev>
+        <Link to={prev.fields.slug}>
+          {prev.frontmatter.title}
+          <img src={arrowRight} alt="Arrow Right" />
+        </Link>
+      </Prev>
     )}
   </Wrapper>
 )

@@ -11,17 +11,17 @@ const Wrapper = styled.div`
 const Content = styled.div`
   margin: 0 auto;
   max-width: ${props => props.theme.maxWidths.general};
-  padding: 3rem 1.0875rem 3rem 1.0875rem;
+  padding: 2rem 1rem 1rem 1rem;
   color: ${props => props.theme.colors.secondary};
   text-align: center;
-  height: 600px;
+  height: 300px;
   @media (max-width: ${props => props.theme.breakpoints.s}) {
-    height: 500px;
+    height: 300px;
   }
 `
 
 const Avatar = styled.div`
-  height: 125px;
+  height: 50px;
   width: 125px;
   margin: 0 auto;
   image-rendering: -moz-crisp-edges;
@@ -30,38 +30,24 @@ const Avatar = styled.div`
   -ms-interpolation-mode: nearest-neighbor;
 
   img {
-    border-radius: 50%;
+    border-radius: 0%;
   }
 `
 
-const Name = styled.h1`
-  margin: 1rem 0 0.25rem 0;
-  color: ${props => props.theme.colors.color};
-`
-
-const Location = styled.div`
-  font-size: 0.9rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`
-
 const SocialMedia = styled.div`
-  margin-top: 2rem;
+  margin-top: 0.1rem;
 
   a {
     margin: 0 0.3rem;
   }
 `
 
-const Header = ({ avatar, name, location, socialMedia }) => (
+const Header = ({ avatar, name, socialMedia }) => (
   <Wrapper>
     <Content>
       <Avatar>
         <img src={avatar} alt={name} />
       </Avatar>
-      <Name>{name}</Name>
-      <Location>{location}</Location>
       <SocialMedia>
         {socialMedia.map(social => (
           <a key={social.name} href={social.url} rel="noopener noreferrer" target="_blank">

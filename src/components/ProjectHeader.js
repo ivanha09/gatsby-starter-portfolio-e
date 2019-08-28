@@ -5,8 +5,6 @@ import { Link } from 'gatsby'
 import { useSpring, animated, config } from 'react-spring'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
-import arrow from '../images/left-chevron.svg'
-
 const Wrapper = styled.div`
   display: flex;
   position: relative;
@@ -34,28 +32,24 @@ const Back = styled(Link)`
 `
 
 const Avatar = styled.div`
-  height: 3rem;
-  width: 3rem;
+  height: 2rem;
+  width: 7rem;
   image-rendering: -moz-crisp-edges;
   image-rendering: -o-crisp-edges;
   image-rendering: -webkit-optimize-contrast;
   -ms-interpolation-mode: nearest-neighbor;
 
   img {
-    border-radius: 50%;
+    border-radius: 0%;
     height: auto;
     width: 100%;
   }
 `
 
-const Name = styled(animated.h4)`
-  margin: 0 0 0 1rem;
-  color: ${props => props.theme.colors.color};
-`
 
 const Details = styled.div`
   width: 100%;
-  margin-top: 6rem;
+  margin-top: 0.1rem;
   text-align: center;
 
   h1 {
@@ -82,11 +76,9 @@ const ProjectHeader = ({ avatar, name, title, date, areas, text }) => {
     <Wrapper>
       <Content>
         <Back to="/">
-          <img src={arrow} data-info="back" alt="Back to home" aria-label="Back to home" />
           <Avatar>
             <img src={avatar} alt={name} />
           </Avatar>
-          <Name>{name}</Name>
         </Back>
         <Details>
           <animated.h1 style={titleProps}>{title}</animated.h1>

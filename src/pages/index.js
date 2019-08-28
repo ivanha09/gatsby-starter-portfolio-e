@@ -37,27 +37,26 @@ const Index = ({
     allMdx: { nodes },
   },
 }) => (
-  <Layout>
-    <Header avatar={config.avatar} name={config.name} location={config.location} socialMedia={config.socialMedia} />
-    <BG>
-      <Content>
-        <Grid>
-          {nodes.map((project, index) => (
-            <Card
-              delay={index}
-              date={project.frontmatter.date}
-              title={project.frontmatter.title}
-              cover={project.frontmatter.cover.childImageSharp.fluid}
-              path={project.fields.slug}
-              areas={project.frontmatter.areas}
-              key={project.fields.slug}
-            />
-          ))}
-        </Grid>
-      </Content>
-    </BG>
-  </Layout>
-)
+    <Layout>
+      <Header avatar={config.avatar} name={config.name} location={config.location} socialMedia={config.socialMedia} />
+      <BG>
+        <Content>
+          <Grid>
+            {nodes.map((project, index) => (
+              <Card
+                delay={index}
+                title={project.frontmatter.title}
+                cover={project.frontmatter.cover.childImageSharp.fluid}
+                path={project.fields.slug}
+                areas={project.frontmatter.areas}
+                key={project.fields.slug}
+              />
+            ))}
+          </Grid>
+        </Content>
+      </BG>
+    </Layout>
+  )
 
 export default Index
 
