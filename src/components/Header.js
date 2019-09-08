@@ -38,7 +38,7 @@ const SocialMedia = styled.div`
   margin-top: 0.1rem;
 
   a {
-    margin: 0 0.3rem;
+    margin: 0 1.5rem;
   }
 `
 
@@ -50,7 +50,7 @@ const Header = ({ avatar, name, socialMedia }) => (
       </Avatar>
       <SocialMedia>
         {socialMedia.map(social => (
-          <a key={social.name} href={social.url} rel="noopener noreferrer" target="_blank">
+          <a key={social.name} href={social.url}>
             {social.name}
           </a>
         ))}

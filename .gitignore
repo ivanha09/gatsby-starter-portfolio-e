@@ -63,3 +63,4 @@ cypress/screenshots
 cypress/videos
 
 .DS_Store
+content/projects/.DS_Store

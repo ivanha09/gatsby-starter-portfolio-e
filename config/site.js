@@ -27,16 +27,24 @@ module.exports = {
   location: 'Toronto',
   socialMedia: [
     {
-      url: 'https://twitter.com/lekoarts_de',
-      name: 'Twitter',
+      url: '../about/',
+      name: 'About',
     },
     {
-      url: 'https://www.instagram.com/lekoarts.de',
-      name: 'Instagram',
+      url: '../',
+      name: 'Work',
     },
     {
-      url: 'https://www.lekoarts.de/en',
-      name: 'Homepage',
+      url: 'mailto:info@ivanha.com',
+      name: 'Contact'
+    },
+    {
+      url: 'https://www.linkedin.com/in/ivan-h-8ab3583b/',
+      name: 'LinkedIn',
+    },
+    {
+      url: 'https://github.com/ivanha09',
+      name: 'GitHub',
     },
   ],
 }
