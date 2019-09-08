@@ -6,10 +6,28 @@ import { Header, Layout } from '../components'
 import config from '../../config/site'
 
 const Content = styled.div`
-  margin: -6rem auto 0 auto;
+  margin: -7rem auto 0 auto;
   max-width: ${props => props.theme.maxWidths.general};
   padding: 0 ${props => props.theme.contentPadding} 6rem;
   position: relative;
+
+  h1 {
+    text-align: center;
+  }
+
+  h3 {
+    color: hsl(0,0%,60%);
+  }
+
+  a {
+    text-decoration: underline;
+  }
+`
+const Description = styled.div`
+  padding: 1rem 3.5rem 4rem 3.5rem;
+  background-color: ${props => props.theme.colors.bg};
+  border: 1px solid grey;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.05);
 `
 
 const BG = styled.div`
@@ -19,10 +37,15 @@ const BG = styled.div`
 const Index = () => (
   <Layout>
     <Header avatar={config.avatar} name={config.name} location={config.location} socialMedia={config.socialMedia} />
-    <Content>
-      <h1>About me</h1>
-      <p>This is my background info.</p>
-    </Content>
+    <BG>
+      <Content>
+
+        <Description>
+          <h1>About me</h1>
+          <h3>I enjoy finding creative solutions for problems big and small. Solutions to these problems come in various mediums which is why I work in print, web and video. <a href="mailto:info@ivanha.com">Contact me</a> to see how I could help you with your needs.</h3>
+        </Description>
+      </Content>
+    </BG>
   </Layout>
 )
 

@@ -45,9 +45,11 @@ const SocialMedia = styled.div`
 const Header = ({ avatar, name, socialMedia }) => (
   <Wrapper>
     <Content>
-      <Avatar>
-        <img src={avatar} alt={name} />
-      </Avatar>
+      <a href="/">
+        <Avatar>
+          <img src={avatar} alt={name} />
+        </Avatar>
+      </a>
       <SocialMedia>
         {socialMedia.map(social => (
           <a key={social.name} href={social.url}>

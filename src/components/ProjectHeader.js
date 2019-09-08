@@ -59,7 +59,7 @@ const Details = styled.div`
 
 const Text = styled.div`
   max-width: 750px;
-  margin: 4rem auto 2rem auto;
+  margin: 0 auto 0 auto;
   color: white;
 `
 
