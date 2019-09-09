@@ -17,6 +17,12 @@ const Content = styled.div`
   height: 300px;
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     height: 300px;
+    max-width: ${props => props.theme.breakpoints.s};
+  }
+  @media (max-width: 500px) {
+    max-width: 400px;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
   }
 `
 
@@ -39,6 +45,11 @@ const SocialMedia = styled.div`
 
   a {
     margin: 0 1rem;
+  }
+  @media (max-width: 500px) {
+    a {
+      margin: 0 .5rem;
+    }
   }
 `
 

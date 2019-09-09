@@ -21,20 +21,11 @@ const Wrapper = styled.div`
 `
 
 const Prev = styled.div`
-  img {
-    width: 25px;
-    height: 25px;
-    margin: 0 0rem 0 0;
-  }
   margin-left: auto;
 `
 
 const Next = styled.div`
-  img {
-    width: 25px;
-    height: 25px;
-    margin: 0 0 0 0rem;
-  }
+
 `
 
 

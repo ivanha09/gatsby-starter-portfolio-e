@@ -26,7 +26,7 @@ const Content = styled.div`
 const Description = styled.div`
   padding: 1rem 3.5rem 4rem 3.5rem;
   background-color: ${props => props.theme.colors.bg};
-  border: 1px solid grey;
+  border: 1px solid hsl(0,0%,80%);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.05);
 `
 
