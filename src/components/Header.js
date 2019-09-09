@@ -38,7 +38,7 @@ const SocialMedia = styled.div`
   margin-top: 0.1rem;
 
   a {
-    margin: 0 1.5rem;
+    margin: 0 1rem;
   }
 `
 
